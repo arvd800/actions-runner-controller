@@ -70,5 +70,5 @@ require (
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
 
-// Personal fork - studying controller-runtime reconciliation patterns
-// Upstream: https://github.com/actions/actions-runner-controller
+// personal fork - studying controller-runtime reconciliation patterns
+// upstream: https://github.com/actions/actions-runner-controller

@@ -67,6 +67,7 @@ require (
 	k8s.io/utils v0.0.0-20231127182322-b307cd553661 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
-	// NOTE: yaml fork pinned here; upstream uses the same version - keeping for reference
-	sigs.k8s.io/yaml v1.4.0 // indirect
+	// NOTE: yaml.v3 is used by controller-runtime internally; yaml.v2 is kept
+	// for compatibility with older k8s libraries that haven't migrated yet.
+	// TODO: revisit once k8s deps are bumped past 0.29.x
 )
